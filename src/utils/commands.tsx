@@ -36,14 +36,14 @@ export const getOutput = (command: string, setCommand: React.Dispatch<React.SetS
           {[
             { cmd: '🌟 about', desc: 'Learn more about me' },
             { cmd: '🌐 socials', desc: 'Find me on the web' },
-            { cmd: '💻 skills', desc: 'Check out my technical skills' },
-            { cmd: '🚀 projects', desc: 'View some of my cool projects' },
-            { cmd: '📄 resume', desc: 'Take a look at my resume' },
-            { cmd: '💼 experience', desc: 'Explore my professional journey' },
-            { cmd: '🎯 goals', desc: 'Discover my aspirations' },
-            { cmd: '📸 clicks', desc: 'I upload random photographs here :)' },
+            // { cmd: '💻 skills', desc: 'Check out my technical skills' },
+            // { cmd: '🚀 projects', desc: 'View some of my cool projects' },
+            // { cmd: '📄 resume', desc: 'Take a look at my resume' },
+            // { cmd: '💼 experience', desc: 'Explore my professional journey' },
+            // { cmd: '🎯 goals', desc: 'Discover my aspirations' },
+            // { cmd: '📸 clicks', desc: 'I upload random photographs here :)' },
             { cmd: '🧹 clear', desc: 'Clear the terminal' },
-            { cmd: '✍️ blogs', desc: 'Nothing meaningful here :)' },
+            // { cmd: '✍️ blogs', desc: 'Nothing meaningful here :)' },
             { cmd: '⚠️ sudo rm -rf /*', desc: 'Try at your own risk!' },
           ].map(({ cmd, desc }) => (
             <div key={cmd} className="flex">
@@ -56,60 +56,52 @@ export const getOutput = (command: string, setCommand: React.Dispatch<React.SetS
     case 'about':
       return (
         <div className="space-y-2">
-          <p>Hey there! Thanks for your interest in getting to know me better.</p>
+          <p>Welcome to my page.</p>
           <p>
-            I'm <span className="text-[#f0883e]">Shubham Singh</span>, currently a Senior Backend Engineer at{' '}
-            <a href="https://tezda.com" target="_blank" rel="noopener noreferrer" className="text-[#58a6ff]">
-              Tezda
-            </a>
-            .
+            I'm <span className="text-[#f0883e]">Josep Monjo</span>, a self taught developer that happens to have a masters degree in programming.
           </p>
           <p>
-            I'm a huge <span className="text-[#f0883e]">Linux enthusiast</span> and absolutely love working in the{' '}
-            <span className="text-[#f0883e]">terminal</span>. My setup is minimalist - just my terminal, IDE, and browser!
-          </p>
-          <p>
-            <span className="text-[#f0883e]">Fun Fact:</span> My nickname is <span className="text-[#f0883e]">Jerry</span> (yes, from Tom and Jerry!).
-            It started as a counter to a friend nicknamed Tom. 😎
-          </p>
-          <p>
-            I'm passionate about building things and always eager to learn. When I'm not coding, you'll probably find me jamming to Bollywood tunes.{' '}
-            <span className="text-[#f0883e]">Indian music for the win!</span> 🎵
+            I'm a <span className="text-[#f0883e]">technology enthusiast</span>. I love <span className="text-[#f0883e]">sci-fi</span>, the <span className="text-[#f0883e]">F1</span> and sometimes I even enjoy football although I'm a <span className="text-[#f0883e]">VCF</span> supporter. 
           </p>
         </div>
       );
     case 'socials':
       return (
         <div className="space-y-2">
-          <p>Social life? What's that? I live in a basement :) ...</p>
-          <p>Thanks for your interest though! Here's where you can find me online:</p>
+          <p>Here's where you can find me online:</p>
           <div className="flex flex-col space-y-1">
             <div className="flex">
               <span className="text-[#f0883e] w-24">GitHub</span>
-              <a href="https://github.com/shubhexists" target="_blank" rel="noopener noreferrer" className="text-[#58a6ff]">
-                shubhexists
+              <a href="https://github.com/jvmonjo" target="_blank" rel="noopener noreferrer" className="text-[#58a6ff]">
+                jvmonjo
               </a>
             </div>
             <div className="flex">
               <span className="text-[#f0883e] w-24"> X </span>
-              <a href="https://x.com/shubh_exists" target="_blank" rel="noopener noreferrer" className="text-[#58a6ff]">
-                shubh_exists
+              <a href="https://x.com/jvmonjo" target="_blank" rel="noopener noreferrer" className="text-[#58a6ff]">
+                @jvmonjo
               </a>
             </div>
             <div className="flex">
-              <span className="text-[#f0883e] w-24">LinkedIn</span>
-              <a href="https://www.linkedin.com/in/shubham-singh-36204b238/" target="_blank" rel="noopener noreferrer" className="text-[#58a6ff]">
-                Shubham Singh
+              <span className="text-[#f0883e] w-24">Bluesky</span>
+              <a href="https://bsky.app/profile/monjo.eu" target="_blank" rel="noopener noreferrer" className="text-[#58a6ff]">
+                @monjo.eu
+              </a>
+            </div>
+            <div className="flex">
+              <span className="text-[#f0883e] w-24">Mastodon</span>
+              <a href="https://mas.to/@monjo" target="_blank" rel="noopener noreferrer" className="text-[#58a6ff]">
+                @monjo@mas.to
               </a>
             </div>
             <div className="flex">
               <span className="text-[#f0883e] w-24">Email</span>
-              <a href="mailto:shubh622005@gmail.com" className="text-[#58a6ff]">
-                shubh622005@gmail.com
+              <a href="mailto:josep@monjo.eu" className="text-[#58a6ff]">
+                josep@monjo.eu
               </a>
             </div>
           </div>
-          <p>Feel free to reach out! I'm most responsive on LinkedIn.</p>
+          <p>Feel free to reach out! I'm most responsive on email.</p>
         </div>
       );
     case 'skills':
