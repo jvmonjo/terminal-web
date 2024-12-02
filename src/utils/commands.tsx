@@ -95,6 +95,12 @@ export const getOutput = (command: string, setCommand: React.Dispatch<React.SetS
               </a>
             </div>
             <div className="flex">
+              <span className="text-[#f0883e] w-24">Blog</span>
+              <a href="https://monjo.dev" target="_blank" rel="noopener noreferrer" className="text-[#58a6ff]">
+                monjo.dev
+              </a>
+            </div>
+            <div className="flex">
               <span className="text-[#f0883e] w-24">Email</span>
               <a href="mailto:josep@monjo.eu" className="text-[#58a6ff]">
                 josep@monjo.eu
