@@ -36,6 +36,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           port: ${{ secrets.FTP_PORT }}
           local_path: './build/*'
-          remote_path: '/opt/stacks/monjo-eu'
+          remote_path: '/opt/stacks/monjo-eu/public'
           sftp_only: true
           password: ${{ secrets.FTP_PASSWORD }}
