@@ -14,7 +14,6 @@ const Header = () => {
 `}
         </pre>
         <div className="text-left text-[#c9d1d9]">
-          <p>Welcome to my portfolio!</p>
           <p>
             Type <span className="text-[#f0883e]">help</span> to get a list of available commands.
           </p>
