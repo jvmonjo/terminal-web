@@ -23,12 +23,12 @@ export const getOutput = (command: string, setCommand: React.Dispatch<React.SetS
 
       closeWindow();
       return <></>;
-    case 'clicks':
-      window.open('https://photos.shubh.sh/grid', '_blank');
-      return 'Opening clicks in a new tab...';
-    case 'blogs':
-      window.open('https://blog.shubh.sh', '_blank');
-      return 'Opening blogs in a new tab...';
+    // case 'clicks':
+    //   window.open('https://photos.shubh.sh/grid', '_blank');
+    //   return 'Opening clicks in a new tab...';
+    // case 'blogs':
+    //   window.open('https://blog.shubh.sh', '_blank');
+    //   return 'Opening blogs in a new tab...';
     case 'help':
       return (
         <div className="flex flex-col space-y-1">
@@ -56,7 +56,6 @@ export const getOutput = (command: string, setCommand: React.Dispatch<React.SetS
     case 'about':
       return (
         <div className="space-y-2">
-          <p>Welcome to my page.</p>
           <p>
             I'm <span className="text-[#f0883e]">Josep Monjo</span>, a self taught developer that happens to have a masters degree in programming.
           </p>
