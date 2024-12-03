@@ -89,7 +89,7 @@ export const getOutput = (command: string, setCommand: React.Dispatch<React.SetS
             </div>
             <div className="flex">
               <span className="text-[#f0883e] w-24">Mastodon</span>
-              <a href="https://mas.to/@monjo" rel="me" target="_blank" rel="noopener noreferrer" className="text-[#58a6ff]">
+              <a href="https://mas.to/@monjo" rel="me" target="_blank" className="text-[#58a6ff]">
                 @monjo@mas.to
               </a>
             </div>
