@@ -95,8 +95,8 @@ export const getOutput = (command: string, setCommand: React.Dispatch<React.SetS
             </div>
             <div className="flex">
               <span className="text-[#f0883e] w-24">Blog</span>
-              <a href="https://monjo.dev" target="_blank" rel="noopener noreferrer" className="text-[#58a6ff]">
-                monjo.dev
+              <a href="https://monjo.eu" target="_blank" rel="noopener noreferrer" className="text-[#58a6ff]">
+                monjo.eu
               </a>
             </div>
             <div className="flex">
