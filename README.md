@@ -6,3 +6,7 @@ Deployed on - https://monjo.dev
 
 # Preview Image
 ![Preview](https://github.com/shubhexists/terminal-portfolio/assets/110319892/d56cdf54-6eff-4afb-9225-6c2223341ed5)
+
+# Edit
+
+Just edit the file: `src/utils/commands.tsx`
