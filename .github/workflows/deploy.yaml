@@ -32,6 +32,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages          # branca on publicar
+          branch: master         # branca on publicar
           folder: build             # carpeta generada pel build
           token: ${{ secrets.GITHUB_TOKEN }}
